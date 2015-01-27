@@ -45,7 +45,10 @@ def handle(text, mic, profile):
     story_repo = profile['story_repo'] if 'story_repo' in profile else '~/prjs/jasper-kidsy/repo'
     print(story_repo)
     story = get_a_story(story_repo)
-    mic.say(story)
+    if story != None:
+        mic.say(story)
+    else:
+        mic.say("Sorry. I could not retrieve story")
 
 
 def isValid(text):

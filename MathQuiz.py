@@ -37,7 +37,7 @@ def handle(text, mic, profile):
     numservice = NumberService()
     user_answer  = numservice.parse(response)
     if user_answer == question[0]:
-        mic.say("You are right!")
+        mic.say("Yay! You are right!")
     else:
         mic.say("Nah, that is incorrect!")
 

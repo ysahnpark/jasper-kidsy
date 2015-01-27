@@ -42,7 +42,9 @@ def handle(text, mic, profile):
                    number)
     """
     mic.say("Retrieving a story")
-    story = get_a_story('./repo')
+    story_repo = profile['story_repo'] if 'story_repo' in profile else '~/prjs/jasper-kidsy/repo'
+    print(story_repo)
+    story = get_a_story(story_repo)
     mic.say(story)
 
 

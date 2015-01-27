@@ -35,11 +35,19 @@ def handle(text, mic, profile):
     response = mic.activeListen()
 
     numservice = NumberService()
-    user_answer  = numservice.parse(response)
-    if user_answer == question[0]:
-        mic.say("Yay! You are right!")
-    else:
-        mic.say("Nah, that is incorrect!")
+
+    try:
+        user_answer  = numservice.parse(response)
+
+        if user_answer == question[0]:
+            mic.say("Yay! You are right!")
+        else:
+            mic.say("Nah, that is incorrect! Try again. " +
+                    "The correct answer is " + question[0])
+
+    except:
+        mic.say("Could not understand your answer!")
+
 
 
 def isValid(text):

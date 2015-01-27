@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7b45594-3dfc-4062-bc47-007bdc203ffa" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MathQuiz.py" afterPath="$PROJECT_DIR$/MathQuiz.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repo/gindergreadman.story.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jasper-kidsy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,14 +69,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MathQuiz.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MathQuiz.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MathQuiz.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7443182" vertical-offset="566" max-vertical-offset="1152">
+            <state vertical-scroll-proportion="0.0" vertical-offset="566" max-vertical-offset="1152">
               <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding>
                 <element signature="e#23#65#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gindergreadman.story.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/repo/gindergreadman.story.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.89772725" vertical-offset="80" max-vertical-offset="504">
+              <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -143,6 +154,7 @@
         <option value="$PROJECT_DIR$/GoogleMplayerTTS.py" />
         <option value="$PROJECT_DIR$/repo/what_is_a_book.story.txt" />
         <option value="$PROJECT_DIR$/MathQuiz.py" />
+        <option value="$PROJECT_DIR$/repo/gindergreadman.story.txt" />
       </list>
     </option>
   </component>
@@ -627,11 +639,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MathQuiz.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7443182" vertical-offset="566" max-vertical-offset="1152">
+        <state vertical-scroll-proportion="0.0" vertical-offset="566" max-vertical-offset="1152">
           <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding>
             <element signature="e#23#65#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repo/gindergreadman.story.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.89772725" vertical-offset="80" max-vertical-offset="504">
+          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>

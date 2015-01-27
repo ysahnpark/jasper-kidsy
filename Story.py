@@ -13,15 +13,18 @@ def get_a_story(story_repo_path=None):
 
     story_repo_path = story_repo_path if story_repo_path.endswith('/') else story_repo_path + '/'
     story_repo_path += '*.story.txt'
+    print("Selecting from " + story_repo_path)
     story_files = glob.glob(story_repo_path)
 
     if len(story_files) == 0:
+        print("No Story");
         return None
 
     # Select one
     idx = random.randint(0, len(story_files) - 1)
     story_path = story_files[idx]
     story_text = None
+    print("Loading " + story_path);
     with open(story_path, 'r') as story_file:
         story_lines = story_file.readlines()
         story_text = ''.join(story_lines).replace('\n', ' ')

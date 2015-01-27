@@ -31,7 +31,7 @@ def handle(text, mic, profile):
                    number)
     """
     question = get_a_question()
-    mic.say("What is " + question[1] + " plus " + question[2])
+    mic.say("What is " + str(question[1]) + " plus " + str(question[2]))
     response = mic.activeListen()
 
     numservice = NumberService()

@@ -1,0 +1,1 @@
+cp MathQuiz.py Story.py ../jasper/client/modules/

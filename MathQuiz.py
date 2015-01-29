@@ -74,7 +74,7 @@ def handle(text, mic, profile):
             mic.say("Did  your answer!")
 
     if not is_correct:
-        mic.say("The correct answer is " + question[0])
+        mic.say("The correct answer is " + str(question[0]))
 
 
 

@@ -61,8 +61,6 @@ def handle(text, mic, profile):
                     comment = ''
                     if attempt < max_attempts - 1:
                         comment = "Try again"
-                    else:
-                        comment = "The correct answer is " + question[0]
                     mic.say("Nah, that is incorrect! " + comment)
 
             elif len(response) == 0:

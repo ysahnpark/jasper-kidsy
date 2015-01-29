@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d7b45594-3dfc-4062-bc47-007bdc203ffa" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MathQuiz.py" afterPath="$PROJECT_DIR$/MathQuiz.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/testtext2num.py" afterPath="$PROJECT_DIR$/tests/testtext2num.py" />
     </list>
     <ignored path="jasper-kidsy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,8 +71,8 @@
       <file leaf-file-name="MathQuiz.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MathQuiz.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.022727273" vertical-offset="1160" max-vertical-offset="1566">
-              <caret line="64" column="53" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
+            <state vertical-scroll-proportion="0.79545456" vertical-offset="1088" max-vertical-offset="1656">
+              <caret line="76" column="55" selection-start-line="76" selection-start-column="55" selection-end-line="76" selection-end-column="55" />
               <folding>
                 <element signature="e#23#65#0" expanded="true" />
               </folding>
@@ -159,8 +158,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="125" />
-    <option name="y" value="162" />
+    <option name="x" value="251" />
+    <option name="y" value="164" />
     <option name="width" value="1178" />
     <option name="height" value="636" />
   </component>
@@ -478,7 +477,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="125" y="162" width="1178" height="636" extended-state="0" />
+    <frame x="251" y="164" width="1178" height="636" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -649,8 +648,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MathQuiz.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.022727273" vertical-offset="1160" max-vertical-offset="1566">
-          <caret line="64" column="53" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
+        <state vertical-scroll-proportion="0.79545456" vertical-offset="1088" max-vertical-offset="1656">
+          <caret line="76" column="55" selection-start-line="76" selection-start-column="55" selection-end-line="76" selection-end-column="55" />
           <folding>
             <element signature="e#23#65#0" expanded="true" />
           </folding>

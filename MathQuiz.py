@@ -52,6 +52,7 @@ def handle(text, mic, profile):
 
             if len(numbers) > 0:
                 user_answer = numbers[0];
+                print ("You answered " + user_answer)
 
                 if user_answer == question[0]:
                     mic.say("Yay! You are right!")
@@ -63,13 +64,17 @@ def handle(text, mic, profile):
                     else:
                         comment = "The correct answer is " + question[0]
                     mic.say("Nah, that is incorrect! " + comment)
+
             elif len(response) == 0:
                 mic.say("Too late!")
             else:
                 mic.say("Could not understand your answer!")
 
         except:
-            mic.say("Could not understand your answer!")
+            mic.say("Did  your answer!")
+
+    if not is_correct:
+        mic.say("The correct answer is " + question[0])
 
 
 

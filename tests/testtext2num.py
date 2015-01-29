@@ -8,7 +8,8 @@ class TestSequenceFunctions(unittest.TestCase):
 
     def test_get_a_story(self):
         numservice = NumberService()
-        result  = numservice.parse("one hundred forty four")
+        result  = numservice.parse("11")
+
         print(result)
 
         self.assertEqual( 1 , text2num("one"))

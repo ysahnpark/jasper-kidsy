@@ -30,23 +30,46 @@ def handle(text, mic, profile):
         profile -- contains information related to the user (e.g., phone
                    number)
     """
+
+    max_attempts = 3
+
     question = get_a_question()
-    mic.say("What is " + str(question[1]) + " plus " + str(question[2]))
-    response = mic.activeListen()
 
-    numservice = NumberService()
+    attempt = 0
+    is_correct = False
 
-    try:
-        user_answer  = numservice.parse(response)
+    while attempt < max_attempts and not is_correct:
+        attempt += 1
 
-        if user_answer == question[0]:
-            mic.say("Yay! You are right!")
-        else:
-            mic.say("Nah, that is incorrect! Try again. " +
-                    "The correct answer is " + question[0])
+        mic.say("What is " + str(question[1]) + " plus " + str(question[2]))
+        response = mic.activeListen()
 
-    except:
-        mic.say("Could not understand your answer!")
+        numservice = NumberService()
+
+        try:
+            numbers = re.findall(r'\d+', response)
+            #user_answer  = numservice.parse(response)
+
+            if len(numbers) > 0:
+                user_answer = numbers[0];
+
+                if user_answer == question[0]:
+                    mic.say("Yay! You are right!")
+                    is_correct = True
+                else:
+                    comment = ''
+                    if attempt < max_attempts - 1:
+                        comment = "Try again"
+                    else:
+                        comment = "The correct answer is " + question[0]
+                    mic.say("Nah, that is incorrect! " + comment)
+            elif len(response) == 0:
+                mic.say("Too late!")
+            else:
+                mic.say("Could not understand your answer!")
+
+        except:
+            mic.say("Could not understand your answer!")
 
 
 
